@@ -1,0 +1,112 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #ccffcc;
+  margin:0;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+}
+.header {
+  background-color:#1c261e ;
+  text-align: center;
+  padding:0
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 26px 35px;
+  text-decoration: none;
+  font-size: 95%;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #76bb40;
+}
+
+div.a {
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+.text-container {
+    max-width: 500px;
+    margin: 0 auto;
+  
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px; 
+  height: 100px;
+}
+
+.leftcolumn {   
+  float: left !important;
+  width: 45% !important;
+  margin-left: 5% !important;
+}
+
+.rightcolumn {
+  float: left !important;
+  width: 45% !important;
+  padding-left: 20px !important;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.card {
+  background-color: #c1ffc1;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  text-align: center ;
+}
+.newsletterform{
+  clear: both;
+  background-color: #ccffcc;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+p{
+  font-family: Helvetica;
+  font-size: 95%;
+}
+h3{font-family: Helvetica;}
